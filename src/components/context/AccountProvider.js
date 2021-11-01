@@ -13,7 +13,7 @@ export default function AccountProvider({ children }) {
 
   //socket port
   useEffect(() => {
-    socket.current = io("https://chatapp-socket.herokuapp.com");
+    socket.current = io("https://chattingapp-socket.herokuapp.com/");
   }, []);
 
   return (
