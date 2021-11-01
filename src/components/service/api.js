@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "https://chatapp-server.herokuapp.com";
+const URL = "https://chattingapp-server.herokuapp.com/";
 
 export const addUser = async (data) => {
   try {
